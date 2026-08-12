@@ -1,27 +1,11 @@
 #include <stdio.h>
 int main(){
 
-int a ,b , c;
-
-printf("A:");
-scanf("%d",&a);
-
-printf("B:");
-scanf("%d",&b);
-
-printf("\n BEFORE SWAPPING:\n");
-printf("THE FIRST NUMBER IS:%d\n",a);
-printf("THE SECOND NUMBER IS:%d\n",b);
-
-
-c = a;
-a = b;
-b = c;
-
-
-printf("\n AFTER SWAPPING\n");
-printf("THE FIRST LATTER IS:%d\n",a);
-printf("THE SECOND NUMBER IS:%d\n",b);
+    float c;
+    printf("CEL:");
+    scanf("%f",&c);
+    int F=1.8*c+32;
+    printf("FAHRENHIT:%d",F);
 
 return 0;
 }
